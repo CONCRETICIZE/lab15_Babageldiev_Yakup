@@ -11,10 +11,13 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <p className='footer__info'>
-                Дата создания: 14 апреля 2026 года
+                Дата создания: 22 апреля 2026 года
             </p>
             <p className='footer__info'>
-                Автор: Генджиев Мердан
+                Сегодняшняя дата: {formattedDate}
+            </p>
+            <p className='footer__info'>
+                Автор: Бабагелдиев Якуп
             </p>
         </footer>
     );

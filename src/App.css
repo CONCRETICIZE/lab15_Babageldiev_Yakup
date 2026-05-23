@@ -4,10 +4,27 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bg: blanchedalmond;
+    --text: #302e86;
+    --accent: #c9b350;
+    --muted: #6b6b8f;
+    --transition: 240ms ease;
+}
+
+.dark {
+    --bg: #0f1116;
+    --text: #e6e6fa;
+    --accent: #ffb86b;
+    --muted: #9aa0b4;
+}
+
 .app {
     display: flex;
     flex-direction: column;
     min-height: 100dvh;
-    background-color:blanchedalmond;
+    background-color: var(--bg);
+    color: var(--text);
+    transition: background-color var(--transition), color var(--transition);
 }
 
