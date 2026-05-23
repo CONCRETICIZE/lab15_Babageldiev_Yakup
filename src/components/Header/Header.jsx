@@ -18,7 +18,7 @@ const Header = () => {
             <div className="header__top">
                 <div className="header__brand">
                     <img src={avatar} alt="avatar" className="header__avatar" />
-                    <strong className="header__title">Lab 15</strong>
+                    <strong className="header__title">Lab 15 Babageldiev Yakup</strong>
                 </div>
                 <button className="theme-toggle" onClick={() => setDark(d => !d)} aria-label="Toggle theme">
                     {dark ? '🌙' : '☀️'}

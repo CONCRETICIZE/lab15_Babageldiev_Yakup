@@ -3,7 +3,7 @@ import './MainAside.css';
 const MainAside = () => {
     return (
         <aside className='main-aside'>
-            <p>Генджиев Мердан</p>
+            <p>Бабагелдиев Якуп</p>
         </aside>
     );
 };
