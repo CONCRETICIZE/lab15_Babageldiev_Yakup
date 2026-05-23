@@ -1,12 +1,20 @@
+import {BrowserRouter as Router} from 'react-router-dom';
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
+import Footer from './components/Footer/Footer';
 import './App.css';
+import './normalize.css';
 
 function App() {
-
   return (
-    <>  
-    fsdfsdfsd   
-    </>
+    <Router>  
+      <div className="app">
+       <Header />
+       <Main />
+       <Footer />
+      </div>
+    </Router>
   )
 }
 
-export default App
+export default App;
